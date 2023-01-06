@@ -1,0 +1,11 @@
+{
+    "name": "alfred/todo",
+    "autoload": {
+        "psr-4": {
+            "Alfred\\Todo\\": "src/"
+        }
+    },
+    "require": {
+        "smarty/smarty": "^4.3"
+    }
+}
