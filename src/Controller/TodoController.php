@@ -30,8 +30,10 @@ class TodoController
             throw new \Exception('Request is empty.');
         }
 
+        // Creating new ToDo.
         $this->todoService->create($request);
 
+        // Redirecting to list.
         header("Location: /todo/list", TRUE, 301);
     }
 }

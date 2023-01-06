@@ -8,7 +8,6 @@ use Alfred\Todo\Framework\DiContainer;
 use Alfred\Todo\Framework\Router;
 
 require_once './vendor/autoload.php';
-$smarty = new Smarty();
 
 // Load custom DI container.
 $container = new DiContainer();

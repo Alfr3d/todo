@@ -31,6 +31,7 @@ class Router
                 $this->todoController->create($request);
                 break;
             default:
+                $this->homePageController->loadNotFoundPage();
                 break;
         }
     }
